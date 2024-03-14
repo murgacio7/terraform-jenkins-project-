@@ -9,7 +9,7 @@ pipeline {
 
     agent any
     tools {
-        terraform 'Terraform'
+        terraform 'Terraform1'
     }
     
     stages {
