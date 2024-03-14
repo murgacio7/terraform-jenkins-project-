@@ -13,7 +13,7 @@ resource "aws_instance" "test" {
 
 resource "aws_vpc" "my_vpc" {
   cidr_block = "10.0.0.0/16"
-  nstance_tenancy = "default"
+  instance_tenancy = "default"
 
   tags = {
     Name = "test"
